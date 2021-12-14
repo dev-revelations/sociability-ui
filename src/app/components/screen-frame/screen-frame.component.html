@@ -1,0 +1,13 @@
+<ion-img [src]="coverImage" class="cover-image"></ion-img>
+<div class="screen-frame-content">
+  <div class="badges">
+    <ion-badge color="primary">{{coverLable}}</ion-badge>
+    <ion-badge color="primary">3 / 25</ion-badge>
+  </div>
+  <div class="content-container">
+    <div class="content-handle-container">
+      <span class="content-handle"></span>
+    </div>
+    <ng-content></ng-content>
+  </div>
+</div>

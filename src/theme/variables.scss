@@ -74,6 +74,13 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** others **/
+  --ion-background-color: white;
+
+  /** app **/
+  --app-color-text-primary : var(--ion-color-primary);
+  --app-color-text-secondary : var(--ion-color-secondary);
 }
 
 @media (prefers-color-scheme: dark) {
