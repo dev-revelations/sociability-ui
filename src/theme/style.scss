@@ -2,3 +2,17 @@
     font-family   : Montserrat;
     text-transform: capitalize;
 }
+
+html {
+    font-size      : 62.5%;
+}
+
+.section {
+    padding: 0px 2rem;
+}
+
+.link-button {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 600;
+}

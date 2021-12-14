@@ -1,0 +1,57 @@
+.venue {
+    padding-top   : 1.5rem;
+    font-size     : 1.2rem;
+    font-weight   : 500;
+    color         : var(--gray-light);
+    text-transform: none;
+
+    .venue-type {
+        font-weight: 600;
+        color      : var(--gray-dark);
+    }
+}
+
+.venue-title {
+    font-weight   : 600;
+    font-size     : 2.6rem;
+    line-height   : normal;
+    letter-spacing: normal;
+    margin-top    : 0.5rem;
+    color         : var(--blue-dark);
+}
+
+
+.venue-rates {
+
+    .rates {
+        display       : flex;
+        flex-direction: row;
+        gap           : 1rem;
+
+        .venue-star {
+            width : 1.4rem;
+            height: 1.4rem;
+        }
+
+        .venue-star-rate {
+            font-size     : 14px;
+            font-weight   : 600;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : normal;
+            letter-spacing: normal;
+            color         : var(--blue-dark);
+        }
+
+        .venue-reviews {
+            font-size: 1.4rem;
+        }
+    }
+
+    .rating-buttons {
+        display       : flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        padding-top: 2rem;
+    }
+}
