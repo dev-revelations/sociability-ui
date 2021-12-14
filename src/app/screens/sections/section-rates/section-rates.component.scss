@@ -3,6 +3,7 @@
     .rates {
         display       : flex;
         flex-direction: row;
+        align-items   : center;
         gap           : 1rem;
 
         .venue-star {
@@ -28,7 +29,7 @@
     .rating-buttons {
         display       : flex;
         flex-direction: row;
-        gap: 2.5rem;
-        padding-top: 2rem;
+        gap           : 2.5rem;
+        padding-top   : 2rem;
     }
 }
