@@ -16,3 +16,9 @@ html {
     text-decoration: underline;
     font-weight: 600;
 }
+
+.hr-line {
+    height: 1px;
+    border: solid 1px var(--gray-lightest);
+    margin: 2rem;
+}
