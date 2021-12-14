@@ -79,8 +79,41 @@
   --ion-background-color: white;
 
   /** app **/
-  --app-color-text-primary : var(--ion-color-primary);
-  --app-color-text-secondary : var(--ion-color-secondary);
+  --orange: #f80;
+  --blue: #0037ff;
+  --gray-lighter: #b9c0d4;
+  --gray-lightest: #dce1f4;
+  --gray-lightest-2: #f3f5ff;
+  --green: #10de9a;
+  --gray-dark-less: #7b7ea1;
+  --white-ash: #f9fbff;
+  --blue-dark: #22294f;
+  --white: #fff;
+  --dark-background: #151a36;
+  --dark: #111323;
+  --blue: #0037ff;
+  --gray-dark: #5c6181;
+  --orange: #f80;
+  --gray-dark-less: #7b7ea1;
+  --blue-dark: #22294f;
+  --white: #fff;
+  --dark-background: #151a36;
+  --gray-light: #979bb9;
+  --gray-lighter: #b9c0d4;
+  --gray-lightest-2: #f3f5ff;
+  --gray-lightest: #dce1f4;
+  --green: #10de9a;
+  --slate-grey: #57626c;
+  --slate-grey: #606470;
+  --dark-grey: #212529;
+  --green: #10de9a;
+  --orange-pink: #ff6d5a;
+  --color-02-ink-01-ink: #212b36;
+  --color-02-ink-03-lighter: #637381;
+  --i-os-system-tints-system-blue-light: #007aff;
+  --i-os-system-tints-disabled-light: #999;
+  --gray-dark: #5c6181;
+  --gray-light: #979bb9;
 }
 
 @media (prefers-color-scheme: dark) {
