@@ -1,0 +1,29 @@
+.info-container {
+
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    gap           : 1.5rem;
+
+    .info-icon {
+        width : 2.4rem;
+        height: 2.4rem;
+    }
+
+    .info-text {
+        font-size     : 1.2rem;
+        font-weight   : 600;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : 1.33;
+        letter-spacing: normal;
+        color         : var(--gray-dark);
+        text-transform: none;
+    }
+
+    .more {
+        width     : 1.6rem;
+        height    : 1.6rem;
+        object-fit: contain;
+    }
+}
