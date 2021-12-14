@@ -1,0 +1,41 @@
+.button-container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    gap            : 1rem;
+
+    max-width: 6rem;
+
+    .image {
+        width     : 2.4rem;
+        height    : 2.4rem;
+        object-fit: contain;
+    }
+
+    .oval {
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        width           : 5rem;
+        height          : 5rem;
+        background-color: var(--gray-lightest-2);
+        border-radius   : 50%;
+    }
+
+    .button-text {
+        font-size     : 1.4rem;
+        font-weight   : 500;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : normal;
+        letter-spacing: normal;
+        text-align    : center;
+        color         : var(--gray-dark);
+    }
+
+    .selected {
+        font-weight: 600;
+        color      : var(--blue-dark);
+    }
+}

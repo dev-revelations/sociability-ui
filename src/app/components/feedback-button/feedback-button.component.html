@@ -1,0 +1,8 @@
+<div class="button-container">
+  <div class="oval">
+    <ion-img class="image" [src]="icon"></ion-img>
+  </div>
+  <span class="button-text" [ngClass]="{'selected': selected}">
+    <ng-content></ng-content>
+  </span>
+</div>
