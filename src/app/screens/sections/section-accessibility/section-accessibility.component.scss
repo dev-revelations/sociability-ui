@@ -1,0 +1,123 @@
+.accessibility {
+
+    .title {
+        font-size     : 1.8rem;
+        font-weight   : bold;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : normal;
+        letter-spacing: normal;
+        color         : var(--blue-dark);
+        margin-bottom : 1rem;
+    }
+
+    .accessibility-item {
+        border-radius   : 2rem;
+        border          : solid 1px var(--gray-lightest-2);
+        background-color: var(--white-ash);
+        padding-top     : 2rem;
+        padding-bottom  : 2rem;
+        margin          : 1rem 0px;
+
+        .accessibility-item-type-container {
+            display       : flex;
+            flex-direction: row;
+            align-items   : center;
+            gap           : 1.5rem;
+
+            .accessibility-item-icon-container {
+                width           : 5rem;
+                height          : 5rem;
+                padding         : 1.3rem;
+                border-radius   : 1rem;
+                box-shadow      : 0.1rem 0.1rem 1.5rem 0 rgba(92, 97, 129, 0.24);
+                background-color: var(--white);
+
+                .accessibility-item-icon {
+                    width     : 2.4rem;
+                    height    : 2.4rem;
+                    object-fit: contain;
+                }
+            }
+
+            .accessibility-type-title-container {
+                display        : flex;
+                flex-direction : column;
+                justify-content: center;
+                gap            : 0.2rem;
+
+                .accessibility-type-title {
+                    font-size     : 16px;
+                    font-weight   : bold;
+                    font-stretch  : normal;
+                    font-style    : normal;
+                    line-height   : 1;
+                    letter-spacing: normal;
+                    color         : var(--blue-dark);
+                }
+
+                .accessibility-type-subtitle {
+                    font-size     : 1.2rem;
+                    font-weight   : 500;
+                    font-stretch  : normal;
+                    font-style    : normal;
+                    line-height   : 1.33;
+                    letter-spacing: normal;
+                    color         : var(--gray-dark-less);
+                }
+            }
+        }
+    }
+
+
+    .accessibility-features {
+        list-style  : none;
+        padding-left: 0px;
+
+        li {
+            margin        : 0px;
+            text-transform: none;
+            font-size     : 1.2rem;
+            font-weight   : 500;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : 1.5;
+            letter-spacing: normal;
+            color         : var(--gray-dark);
+        }
+
+        li::before {
+            content    : "\2022";
+            color      : var(--blue);
+            font-weight: bold;
+            font-size  : 2rem;
+            display    : inline-block;
+            width      : 1em;
+            margin-left: 0px;
+        }
+    }
+
+    .see-more {
+        display       : flex;
+        flex-direction: row;
+        align-items   : center;
+        gap           : 0.4rem;
+
+        font-size     : 1.2rem;
+        font-weight   : 600;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : 1.33;
+        letter-spacing: normal;
+        color         : var(--blue);
+
+        .see-more-icon {
+            width     : 1.6rem;
+            height    : 1.6rem;
+            object-fit: contain;
+            margin-top: auto;
+        }
+    }
+
+   
+}

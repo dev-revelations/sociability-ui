@@ -1,0 +1,27 @@
+.add-button-container {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    gap           : 0.8rem;
+
+    border-radius: 2.5rem;
+    border: solid 1px var(--gray-light);
+    padding: 0.6rem;
+    padding-right: 1.2rem;
+
+    .add-icon {
+        width     : 2rem;
+        height    : 2rem;
+        object-fit: contain;
+    }
+
+    .button-text {
+        font-size     : 1.2rem;
+        font-weight   : 600;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : 1.33;
+        letter-spacing: normal;
+        color         : var(--blue-dark);
+    }
+}
