@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Photo } from 'src/app/api/photo.data';
 
 @Component({
   selector: 'app-section-photos',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section-photos.component.scss'],
 })
 export class SectionPhotosComponent implements OnInit {
+
+  @Input()
+  data: Array<Photo>;
 
   slideOpts = {
     initialSlide: 0,
@@ -17,14 +21,6 @@ export class SectionPhotosComponent implements OnInit {
       disableOnInteraction: false
     }
   };
-
-  readonly photos = [
-    'https://unsplash.com/photos/0uAVsDcyD0M/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1Njcw&force=true&w=640',
-    'https://unsplash.com/photos/poI7DelFiVA/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NTY0&force=true&w=640',
-    'https://unsplash.com/photos/SUXcGaSnZyY/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1ODI0&force=true&w=640',
-    'https://unsplash.com/photos/GXXYkSwndP4/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NTU2&force=true&w=640',
-    'https://unsplash.com/photos/OFJGlG3sKik/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NzMz&force=true&w=640',
-  ];
 
   constructor() { }
 
