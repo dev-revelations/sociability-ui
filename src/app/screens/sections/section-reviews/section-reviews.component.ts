@@ -17,6 +17,11 @@ export class SectionReviewsComponent implements OnInit {
     speed: 400,
     freeMode: true,
     loop: true,
+    spaceBetween: 100,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: true
+    }
   };
 
   constructor() { }
