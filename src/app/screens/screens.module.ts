@@ -6,12 +6,14 @@ import { ScreenVenueProfileComponent } from './screen-venue-profile/screen-venue
 import { SectionRatesComponent } from './sections/section-rates/section-rates.component';
 import { SectionInfoComponent } from './sections/section-info/section-info.component';
 import { SectionAccessibilityComponent } from './sections/section-accessibility/section-accessibility.component';
+import { SectionPhotosComponent } from './sections/section-photos/section-photos.component';
 
 const exports = [
   ScreenVenueProfileComponent,
   SectionRatesComponent,
   SectionInfoComponent,
   SectionAccessibilityComponent,
+  SectionPhotosComponent,
 ];
 
 @NgModule({

@@ -1,0 +1,48 @@
+.photos {
+    .title-container {
+        display        : flex;
+        flex-direction : row;
+        align-items    : center;
+        justify-content: space-between;
+
+        .title {
+            font-size     : 1.8rem;
+            font-weight   : bold;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : normal;
+            letter-spacing: normal;
+            color         : var(--blue-dark);
+        }
+
+        .all-photos {
+            font-size     : 1.2rem;
+            font-weight   : 600;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : 1.33;
+            letter-spacing: normal;
+        }
+    }
+}
+
+.photo-slider {
+    height        : 14.5rem;
+    padding-bottom: 3.5rem;
+    margin-bottom : 1.5rem;
+
+    .slide-image {
+        width : 12rem;
+        height: 12rem;
+    }
+
+    ion-avatar {
+        --border-radius: 2rem;
+    }
+
+    ion-slide {
+        margin-right: 3rem;
+    }
+
+
+}

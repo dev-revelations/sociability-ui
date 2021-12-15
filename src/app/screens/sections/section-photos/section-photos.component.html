@@ -1,0 +1,18 @@
+<div class="section photos">
+  <div class="title-container">
+    <span class="title">Photos</span>
+    <span class="link-button all-photos">All Photos</span>
+  </div>
+</div>
+
+<ion-slides [options]="slideOpts" class="photo-slider">
+  <ion-slide *ngFor="let photo of photos; index as i">
+    <ion-avatar>
+      <ion-img [src]="photo" class="slide-image"></ion-img>
+    </ion-avatar>
+  </ion-slide>
+</ion-slides>
+
+<div class="section">
+  <app-add-button>Add Photos</app-add-button>
+</div>
