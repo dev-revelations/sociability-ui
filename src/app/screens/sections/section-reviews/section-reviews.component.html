@@ -6,14 +6,8 @@
 </div>
 
 <ion-slides [options]="slideOpts" class="review-slider">
-  <ion-slide>
-    <app-review-box></app-review-box>
-  </ion-slide>
-  <ion-slide>
-    <app-review-box></app-review-box>
-  </ion-slide>
-  <ion-slide>
-    <app-review-box></app-review-box>
+  <ion-slide *ngFor="let review of data">
+    <app-review-box [review]="review"></app-review-box>
   </ion-slide>
 </ion-slides>
 

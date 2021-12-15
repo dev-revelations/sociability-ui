@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Review } from 'src/app/api/review.data';
 
 @Component({
   selector: 'app-review-box',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReviewBoxComponent implements OnInit {
 
+  @Input()
+  review: Review;
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
 }

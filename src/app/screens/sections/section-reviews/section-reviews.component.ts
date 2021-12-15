@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Review } from 'src/app/api/review.data';
 
 @Component({
   selector: 'app-section-reviews',
@@ -7,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionReviewsComponent implements OnInit {
 
+  @Input()
+  data: Array<Review>;
+
   slideOpts = {
     initialSlide: 0,
     slidesPerView: 2,
     speed: 400,
-    freeMode:true,
+    freeMode: true,
     loop: true,
   };
 
