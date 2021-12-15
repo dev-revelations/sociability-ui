@@ -1,0 +1,39 @@
+.reviews {
+    .title-container {
+        display        : flex;
+        flex-direction : row;
+        align-items    : center;
+        justify-content: space-between;
+
+        .title {
+            font-size     : 1.8rem;
+            font-weight   : bold;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : normal;
+            letter-spacing: normal;
+            color         : var(--blue-dark);
+        }
+
+        .all-reviews {
+            font-size     : 1.2rem;
+            font-weight   : 600;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : 1.33;
+            letter-spacing: normal;
+        }
+    }
+}
+
+.review-slider {
+    height        : 320px;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+
+    ion-slide {
+        margin-left: 13.2rem;
+        margin-right: -2.5rem;
+    }
+
+}

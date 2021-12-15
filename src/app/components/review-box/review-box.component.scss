@@ -1,0 +1,149 @@
+.review-box {
+    width           : 260px;
+    height          : 300px;
+    border-radius   : 20px;
+    box-shadow      : 3px 7px 18px 0 rgba(34, 41, 79, 0.06);
+    border          : solid 1px var(--gray-lightest-2);
+    background-color: var(--white);
+    padding-top     : 2rem;
+    padding-bottom  : 2rem;
+
+    text-align: left;
+
+    display           : flex;
+    flex-direction    : column;
+    justify-content   : space-between;
+    // align-items    : flex-start;
+
+    .review-header {
+        display        : flex;
+        flex-direction : row;
+        justify-content: space-between;
+
+        .user-detail {
+            display       : flex;
+            flex-direction: row;
+            align-items   : center;
+            gap           : 1.5rem;
+
+            ion-avatar {
+                --border-radius: 1rem;
+                width          : 4rem;
+                height         : 4rem;
+            }
+
+            ion-img {
+                width : 4rem;
+                height: 4rem;
+            }
+
+            .user-name-container {
+                display        : flex;
+                flex-direction : column;
+                justify-content: center;
+
+                .user-name {
+                    font-size     : 1.6rem;
+                    font-weight   : bold;
+                    font-stretch  : normal;
+                    font-style    : normal;
+                    line-height   : 1;
+                    letter-spacing: normal;
+                    color         : var(--blue-dark);
+                }
+
+                .review-date {
+                    font-size     : 1.2rem;
+                    font-weight   : 500;
+                    font-stretch  : normal;
+                    font-style    : normal;
+                    line-height   : 1.33;
+                    letter-spacing: normal;
+                    color         : var(--gray-dark-less);
+                    text-transform: none;
+                }
+            }
+        }
+
+        .box-menu {
+            width              : 2.4rem;
+            height             : 2.4rem;
+            // margin          : 0 0 31px 27px;
+            border-radius      : 0.5rem;
+            box-shadow         : 0 2px 18px 0 rgba(39, 47, 90, 0.16);
+            background-color   : var(--white);
+
+            display        : flex;
+            flex-direction : column;
+            justify-content: center;
+            align-items    : center;
+            gap            : 0.2rem;
+
+            .menu-oval {
+                width           : 0.3rem;
+                height          : 0.3rem;
+                border-radius   : 50%;
+                background-color: var(--gray-dark);
+            }
+        }
+    }
+
+    .sociability-tag-container {
+        display   : inline-block;
+        text-align: left;
+
+        .sociability-tag {
+            position      : relative;
+            font-size     : 1.2rem;
+            font-weight   : 600;
+            font-stretch  : normal;
+            font-style    : normal;
+            line-height   : normal;
+            letter-spacing: normal;
+            text-align    : center;
+            color         : var(--orange);
+            padding       : 0.3rem 1.2rem;
+
+            &::before {
+                position        : absolute;
+                left            : 0;
+                top             : 0;
+                content         : "_";
+                opacity         : 0.16;
+                border-radius   : 1.1rem;
+                background-color: var(--orange);
+                width           : 100%;
+                height          : 100%;
+            }
+        }
+
+    }
+
+    .review-text {
+        font-size     : 1.2rem;
+        font-weight   : 500;
+        font-stretch  : normal;
+        font-style    : normal;
+        line-height   : 1.5;
+        letter-spacing: normal;
+        color         : var(--gray-dark-less);
+        text-align    : left;
+    }
+
+    .review-thumbnails {
+        display        : flex;
+        flex-direction : row;
+        justify-content: space-between;
+
+        ion-avatar {
+            --border-radius: 1.5rem;
+            width          : 6rem;
+            height         : 6rem;
+        }
+
+        ion-img {
+            width : 6rem;
+            height: 6rem;
+        }
+    }
+}

@@ -5,12 +5,14 @@ import { IonicModule } from '@ionic/angular';
 import { FeedbackButtonComponent } from './feedback-button/feedback-button.component';
 import { InfoLableComponent } from './info-lable/info-lable.component';
 import { AddButtonComponent } from './add-button/add-button.component';
+import { ReviewBoxComponent } from './review-box/review-box.component';
 
 const exports = [
   ScreenFrameComponent,
   FeedbackButtonComponent,
   InfoLableComponent,
   AddButtonComponent,
+  ReviewBoxComponent,
 ];
 
 @NgModule({
