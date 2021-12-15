@@ -19,11 +19,11 @@ export class SectionPhotosComponent implements OnInit {
   };
 
   readonly photos = [
-    '../../../../assets/cafe_restaurant_tables_chairs.jpg',
-    '../../../../assets/cafe_restaurant_tables_chairs.jpg',
-    '../../../../assets/cafe_restaurant_tables_chairs.jpg',
-    '../../../../assets/cafe_restaurant_tables_chairs.jpg',
-    '../../../../assets/cafe_restaurant_tables_chairs.jpg',
+    'https://unsplash.com/photos/0uAVsDcyD0M/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1Njcw&force=true&w=640',
+    'https://unsplash.com/photos/poI7DelFiVA/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NTY0&force=true&w=640',
+    'https://unsplash.com/photos/SUXcGaSnZyY/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1ODI0&force=true&w=640',
+    'https://unsplash.com/photos/GXXYkSwndP4/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NTU2&force=true&w=640',
+    'https://unsplash.com/photos/OFJGlG3sKik/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM5NTM1NzMz&force=true&w=640',
   ];
 
   constructor() { }
