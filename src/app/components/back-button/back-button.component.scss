@@ -1,0 +1,16 @@
+.back-button-container {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+    width           : 4rem;
+    height          : 4rem;
+    border-radius   : 1.5rem;
+    box-shadow      : 3px 7px 32px 0 rgba(92, 97, 129, 0.24);
+    background-color: var(--white);
+}
+
+.back-button-icon {
+    width : 1.5rem;
+    height: 1.5rem;
+}

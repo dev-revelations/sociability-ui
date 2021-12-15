@@ -6,6 +6,7 @@ import { FeedbackButtonComponent } from './feedback-button/feedback-button.compo
 import { InfoLableComponent } from './info-lable/info-lable.component';
 import { AddButtonComponent } from './add-button/add-button.component';
 import { ReviewBoxComponent } from './review-box/review-box.component';
+import { BackButtonComponent } from './back-button/back-button.component';
 
 const exports = [
   ScreenFrameComponent,
@@ -13,6 +14,7 @@ const exports = [
   InfoLableComponent,
   AddButtonComponent,
   ReviewBoxComponent,
+  BackButtonComponent,
 ];
 
 @NgModule({
