@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Photo } from 'src/app/api/photo.data';
+import { Photo } from 'src/app/dto/photo.dto';
 
 @Component({
   selector: 'app-section-photos',

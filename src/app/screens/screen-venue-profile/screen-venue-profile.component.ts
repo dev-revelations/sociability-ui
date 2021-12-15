@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/api/api.service';
-import { Photo } from 'src/app/api/photo.data';
-import { Review } from 'src/app/api/review.data';
+import { Photo } from 'src/app/dto/photo.dto';
+import { Review } from 'src/app/dto/review.dto';
 
 @Component({
   selector: 'app-screen-venue-profile',
