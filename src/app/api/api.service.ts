@@ -12,11 +12,11 @@ export class ApiService {
 
   constructor(private httpClient: HttpClient, private config: ConfigService) { }
 
-  public getPhotos(): Observable<Photo> {
-    return this.httpClient.get<Photo>(this.config.server + this.config.routePhotos);
+  public getPhotos(): Observable<Array<Photo>> {
+    return this.httpClient.get<Array<Photo>>(this.config.server + this.config.routePhotos);
   }
 
-  public getReviews(): Observable<Review> {
-    return this.httpClient.get<Review>(this.config.server + this.config.routeReviews);
+  public getReviews(): Observable<Array<Review>> {
+    return this.httpClient.get<Array<Review>>(this.config.server + this.config.routeReviews);
   }
 }
